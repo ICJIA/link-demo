@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     transpile: ["vuetify"],
   },
   modules: [
+    "@vueuse/nuxt",
     (_options, nuxt) => {
       nuxt.hooks.hook("vite:extendConfig", (config) => {
         // @ts-expect-error
