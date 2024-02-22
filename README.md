@@ -1,5 +1,7 @@
 # URI Demo
 
+https://icjia-link-demo.netlify.app/
+
 Make sure to install the dependencies:
 
 ```bash
