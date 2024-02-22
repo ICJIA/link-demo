@@ -3,7 +3,7 @@
     <v-container class="mt-12"
       ><v-row fill-height
         ><v-col>
-          <v-sheet class="mx-auto">
+          <v-card class="mx-auto px-10 py-10" elevation="5">
             <v-form>
               <v-text-field
                 v-model="link"
@@ -40,7 +40,7 @@
             <div v-if="isCopied" class="mt-16 mx-auto text-center">
               Copied to clipboard!
             </div>
-          </v-sheet>
+          </v-card>
           <!-- <div class="mt-16">
             <a :href="link" target="_blank">{{ link }}</a>
           </div> -->
@@ -50,11 +50,11 @@
     <v-container class="mt-12"
       ><v-row
         ><v-col>
-          <v-card class="px-5 py-5">
+          <v-card class="px-5 py-5" style="background: #fafafa" elevation="5">
             <h2 class="mb-5">References:</h2>
             <ul class="pl-10">
               <li>
-                <a href="https://www.ietf.org/rfc/rfc3986.txt">
+                <a href="https://www.ietf.org/rfc/rfc3986.txt" target="_blank">
                   Uniform Resource Identifier (URI): Generic Syntax (Network
                   Working Group RFC 3986)
                 </a>
@@ -62,26 +62,30 @@
               <li>
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI"
+                  target="_blank"
                   >encodeURI() (MDN - Mozilla)</a
                 >
               </li>
               <li>
-                <a href="https://github.com/ICJIA/link-demo"
+                <a href="https://github.com/ICJIA/link-demo" target="_blank"
                   >Github Source for this page</a
                 >
               </li>
             </ul>
-            <h3 class="mt-12">Additional Info:</h3>
+            <h3 class="mt-10 mb-5">Additional Info:</h3>
             <ul class="pl-10">
               <li>
-                <a href="https://en.wikipedia.org/wiki/Percent-encoding"
-                  >Percent Encoding (Wikipedia)</a
+                <a
+                  href="https://en.wikipedia.org/wiki/Percent-encoding"
+                  target="_blank"
+                  >Percent Encoding</a
                 >
               </li>
               <li>
                 <a
                   href="https://en.wikipedia.org/wiki/Uniform_Resource_Identifier"
-                  >Uniform Resource Identifier (Wikipedia)</a
+                  target="_blank"
+                  >Uniform Resource Identifier</a
                 >
               </li>
             </ul>
