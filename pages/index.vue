@@ -47,6 +47,48 @@
         </v-col></v-row
       ></v-container
     >
+    <v-container class="mt-12"
+      ><v-row
+        ><v-col>
+          <v-card class="px-5 py-5">
+            <h2 class="mb-5">References:</h2>
+            <ul class="pl-10">
+              <li>
+                <a href="https://www.ietf.org/rfc/rfc3986.txt">
+                  Uniform Resource Identifier (URI): Generic Syntax (Network
+                  Working Group RFC 3986)
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI"
+                  >encodeURI() (MDN - Mozilla)</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/ICJIA/link-demo"
+                  >Github Source for this page</a
+                >
+              </li>
+            </ul>
+            <h3 class="mt-12">Additional Info:</h3>
+            <ul class="pl-10">
+              <li>
+                <a href="https://en.wikipedia.org/wiki/Percent-encoding"
+                  >Percent Encoding (Wikipedia)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://en.wikipedia.org/wiki/Uniform_Resource_Identifier"
+                  >Uniform Resource Identifier (Wikipedia)</a
+                >
+              </li>
+            </ul>
+          </v-card>
+        </v-col></v-row
+      ></v-container
+    >
   </div>
 </template>
 
