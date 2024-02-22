@@ -68,7 +68,7 @@
               </li>
               <li>
                 <a href="https://github.com/ICJIA/link-demo" target="_blank"
-                  >Github Source for this page</a
+                  >Github repo for this page</a
                 >
               </li>
             </ul>
